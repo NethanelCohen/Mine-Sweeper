@@ -1,0 +1,107 @@
+* {
+    resize: none;
+}
+
+body {
+    text-align: center;
+    background-color: rgb(238, 231, 200);
+    color: maroon;
+    font-size: 20px;
+}
+
+.lives {
+    height: 40px;
+    border: 2px solid rgba(252, 130, 130, 0.932);
+    font-size: x-large;
+    background-color: #e9e3e3;
+}
+
+.status {
+    border: 2px solid rgb(41, 34, 34);
+    background-color: rgb(233, 227, 227);
+    width: 80px;
+    height: 40px;
+    font-size: x-large;
+}
+
+.hints {
+    height: 40px;
+    border: 2px solid rgb(125, 202, 144);
+    background-color: #e9e3e3;
+    font-size: x-large;
+    cursor: help;
+}
+
+.hints:hover {
+    background-color: rgb(250, 248, 118);
+}
+
+.blinking {
+    background-color: #faf876;
+    border: 2px solid rgb(41, 34, 34);
+    cursor: pointer;
+}
+
+.p {
+    font-family: monospace;
+}
+
+.difficulty {
+    padding-bottom: 5px;
+}
+
+.difficulty :hover {
+    background-color: rgb(218, 193, 193);
+}
+
+.difficulty button {
+    border: 2px solid rgb(41, 34, 34);
+    background-color: rgb(233, 227, 227);
+    width: 120px;
+    font-size: large;
+    cursor: pointer;
+}
+
+.difficulty button span {
+    font-size: small;
+    color: rgb(114, 29, 29);
+    display: none;
+}
+
+.timer {
+    padding-top: 10px;
+}
+
+.time-box {
+    border: 2px solid rgb(41, 34, 34);
+    background-color: rgb(188, 210, 241);
+    width: 100px;
+    height: 30px;
+    font-size: large;
+    cursor: pointer;
+}
+
+.game-table {
+    margin: auto;
+    padding: 30px;
+}
+
+.hidden {
+    width: 30px;
+    height: 30px;
+    color: rgb(250, 219, 82, 0);
+    background-color: #5f5353;
+    border: 2px solid rgb(41, 34, 34);
+    cursor: pointer;
+    box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+}
+
+.cell {
+    width: 30px;
+    height: 30px;
+    color: rgb(238, 231, 200);
+    background-color: rgb(179, 157, 157);
+    border: 2px solid rgb(41, 34, 34);
+    cursor: pointer;
+    box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+}

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Mine Sweeper</title>
+</head>
+
+<body onload="initGame()">
+    <h1>Mine Sweeper</h1>
+
+    <div class="elements">
+        <button class="lives life1"> ❤️ </button>
+        <button class="lives life2"> ❤️ </button>
+        <button class="lives life3"> ❤️ </button>
+        <button class="status" onclick="restartGame()"> 😴 </button>
+        <button class="hints" onclick="showHint(this)"> 🎁 </button>
+        <button class="hints" onclick="showHint(this)"> 🎁 </button>
+        <button class="hints" onclick="showHint(this)"> 🎁 </button>
+    </div>
+
+    <p>Set the record !</p>
+    <div class="difficulty">
+        <button onclick="setDifficulty(this)" id="Easy"> Easy <br><span>00:00:00</span></button>
+        <button onclick="setDifficulty(this)" id="Medium"> Medium <br><span>00:00:00</span></button>
+        <button onclick="setDifficulty(this)" id="Pro"> Pro <br> <span>00:00:00</span></button>
+    </div>
+    <div class="timer">
+        <button class="time-box">00:00:00</buttom>
+    </div>
+
+    <div class="game-table">
+
+    </div>
+
+    <script src="js/util.js"></script>
+    <script src="js/script.js"></script>
+</body>
+
+</html>
