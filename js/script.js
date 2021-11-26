@@ -202,9 +202,8 @@ function renderStatus() {
 }
 
 function showHint(elbtn) {
-    console.log(elbtn);
     elbtn.style.backgroundColor = "Gray";
-    elbtn.onclick = null;
+    elbtn.disabled = true;
     elbtn.style.cursor = "not-allowed";
 
     var safeCells = getEmptyCells();
@@ -316,6 +315,7 @@ function renderHints() {
     for (var i = 0; i < 3; i++) {
         elHints[i].style.backgroundColor = "#e9e3e3";
         elHints[i].style.cursor = "pointer";
+        elHints[i].disabled = false;
     }
 }
 
